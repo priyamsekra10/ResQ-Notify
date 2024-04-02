@@ -22,7 +22,7 @@ def fetch_contact_data():
         contact_data.append(doc.to_dict())
 
     return contact_data
-
+# tgutf
 # Function to fetch previously sent data
 def fetch_sent_data():
     # Replace 'sent_data' with the name of the collection where you store sent data
