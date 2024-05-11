@@ -8,7 +8,7 @@ from email.mime.text import MIMEText
 cred = credentials.Certificate(r"sample-1-fcb7b-firebase-adminsdk-sqfvi-24fd5ad500.json")
 firebase_admin.initialize_app(cred)
 
-# Initialize Firestore
+# Initialize Firestore yes
 db = firestore.client()
 
 # Function to fetch data from Firebase
